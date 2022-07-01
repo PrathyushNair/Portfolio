@@ -23,10 +23,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={"https://miro.medium.com/max/875/1*hSHSLjaXwwI9N6ozdkgacg.png"}
               isBlog={false}
               title="Nordstormrack Clone"
-              description="Online shopping platform of nordstorm.com build with HTML, CSS, and JavaScript. Have features which allows user to login/signup, add product to cart/wishlist and mandated login before visiting checkout page."
+              description="Online shopping platform of nordstorm.com build with HTML, CSS, and JavaScript. Have features which allows user to login/signup, 
+              add product to cart/wishlist and mandated login before visiting checkout page.|| Techstack: HTML, CSS, JavaScript, Git ||"
               ghLink="https://github.com/PrathyushNair/Nord_clone"
               demoLink="https://quiet-crepe-a6deeb.netlify.app/"
             />
@@ -34,23 +35,25 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={"https://miro.medium.com/max/875/1*47DtGI0LINBeAY9Aj7S3sw.png"}
               isBlog={false}
               title="Modesens Clone"
               description="Modesens is an online platform that acts as a shopping assistant to users. Build using React.js, Redux, Chakra UI and CSS. Data for this project has been scrapped 
-              from the original website. This enabled us to pupolate the json server. "
+              from the original website. This enabled us to pupolate the json server.  || Techstack: React, Redux, Chakra UI, CSS, Git ||"
               ghLink="https://github.com/Deepumandal/Modesens"
               demoLink="https://magnificent-bublanina-64e24e.netlify.app/"
             />
+            
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={"https://miro.medium.com/max/875/1*VcjMyZBiAub5CABDHJhPww.jpeg"}
               isBlog={false}
               title="Toymarche Clone"
-              description="An online platform for purchasing toys.This website ids build using HTML, CSS and JavaScript.Functionalities include login/signup, add to cart/wishlist
-              and checkout page"
+              description="An online platform for purchasing toys.This website ids build using HTML, CSS and JavaScript.
+              Functionalities include login/signup, add to cart/wishlist
+              and checkout page. || Techstack: HTML, CSS, JavaScript, Git ||"
               ghLink="https://github.com/PrathyushNair/ToyMarche_clone"
               demoLink="https://62488c87db897540a8152398--subtle-centaur-57e7a8.netlify.app/"              
             />
