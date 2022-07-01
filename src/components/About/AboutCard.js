@@ -26,7 +26,16 @@ function AboutCard() {
             <li className="about-activity">
               <ImPointRight /> Cycling..
             </li>
+
           </ul>
+          <div style={{display:"flex",marginTop:"10px",gap:"20px"}}>
+          <div className="about-activity">
+               <span style={{color:"#b440e2"}}>Email:</span> prathyu360@gmail.com
+          </div>
+          <div className="about-activity">
+          <span style={{color:"#b440e2"}}>Mobile:</span> 8369740382
+          </div>
+          </div>
 
           {/* <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}

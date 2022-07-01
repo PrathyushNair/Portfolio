@@ -25,10 +25,10 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="Nordstormrack Clone"
+              description="Online shopping platform of nordstorm.com build with HTML, CSS, and JavaScript. Have features which allows user to login/signup, add product to cart/wishlist and mandated login before visiting checkout page."
+              ghLink="https://github.com/PrathyushNair/Nord_clone"
+              demoLink="https://quiet-crepe-a6deeb.netlify.app/"
             />
           </Col>
 
@@ -36,10 +36,11 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Modesens Clone"
+              description="Modesens is an online platform that acts as a shopping assistant to users. Build using React.js, Redux, Chakra UI and CSS. Data for this project has been scrapped 
+              from the original website. This enabled us to pupolate the json server. "
+              ghLink="https://github.com/Deepumandal/Modesens"
+              demoLink="https://magnificent-bublanina-64e24e.netlify.app/"
             />
           </Col>
 
@@ -47,14 +48,15 @@ function Projects() {
             <ProjectCard
               imgPath={editor}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Toymarche Clone"
+              description="An online platform for purchasing toys.This website ids build using HTML, CSS and JavaScript.Functionalities include login/signup, add to cart/wishlist
+              and checkout page"
+              ghLink="https://github.com/PrathyushNair/ToyMarche_clone"
+              demoLink="https://62488c87db897540a8152398--subtle-centaur-57e7a8.netlify.app/"              
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
@@ -63,9 +65,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Plant_AI"
               demoLink="https://plant49-ai.herokuapp.com/"
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -74,9 +76,9 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -86,7 +88,7 @@ function Projects() {
               ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
